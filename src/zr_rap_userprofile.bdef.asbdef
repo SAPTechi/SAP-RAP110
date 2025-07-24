@@ -1,0 +1,27 @@
+managed implementation in class zbp_r_rap_userprofile unique;
+strict ( 2 );
+
+define behavior for ZR_RAP_UserProfile //alias <alias_name>
+persistent table zrap_userprofile
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  //delete;
+  field ( readonly ) Uname;
+  mapping for zrap_userprofile
+    {
+      Uname              = uname;
+      FirstName          = first_name;
+      LastName           = last_name;
+      Email              = email;
+      Usercurrency       = usercurrency;
+      CreatedBy          = created_by;
+      CreatedAt          = created_at;
+      LastChangedBy      = last_changed_by;
+      LastChangedAt      = last_changed_at;
+      LocalLastChangedAt = local_last_changed_at;
+    }
+}

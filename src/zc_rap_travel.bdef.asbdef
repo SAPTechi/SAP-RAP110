@@ -13,6 +13,8 @@ define behavior for ZC_RAP_Travel alias Travel
 
   //use action Prepare;
 
+  use action updateuser ;
+
   use association _Booking { create; with draft; }
 }
 

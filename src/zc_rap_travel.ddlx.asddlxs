@@ -21,11 +21,11 @@ annotate entity ZC_RAP_Travel with
                  position:        20,
                  targetElement:   '_Booking'} ]  
   
-  @UI:{ identification: [{ position: 1, label: 'Travel UUID' }] }
+  @UI:{ identification: [{ position: 1, label: 'Travel UUID' } ] }
   TravelUUID;
   
-  @UI: {  lineItem:       [ { position: 10 } ],
-          identification: [ { position: 10 } ],
+  @UI: {  lineItem:       [ { position: 10 },{ type: #FOR_ACTION , dataAction: 'updateuser'  , label: 'update user'  }  ],
+          identification: [ { position: 10 }],
           selectionField: [ { position: 10 } ] }  
   TravelID;
   

@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Travel Booking"
+  },
+  "ui5AppDetails": {
+    "appId": "ztravelmanage"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_05CF8C1DD234C25871AA7619AE9DCCFD9291321A_TM",
+    "semanticObject": "ZTRAVEL",
+    "action": "maintain",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_05CF8C1DD234C25871AA7619AE9DCCFD9291321A_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Travel Booking"
+      }
+    }
+  ]
+}

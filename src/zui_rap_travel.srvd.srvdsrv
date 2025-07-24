@@ -12,4 +12,5 @@ define service ZUI_RAP_TRAVEL {
   expose /DMO/I_Booking_Status_VH as BookingStatus;
   expose /DMO/I_Customer_StdVH    as CustomerVh;
   expose I_CurrencyStdVH          as Currencyvh2;
+  expose ZR_RAP_UserProfile       as UserProfile;
 }

@@ -23,6 +23,8 @@ authorization master ( instance )
 
   action ( features : instance ) acceptTravel result [1] $self;
   action ( features : instance ) rejectTravel result [1] $self;
+
+  static action updateuser    parameter ZR_RAP_UserProfile;
   internal action recalcTotalPrice;
 
   determination setInitialStatus on modify { create; }
